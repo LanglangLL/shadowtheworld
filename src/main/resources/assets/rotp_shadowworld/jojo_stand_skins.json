@@ -1,0 +1,16 @@
+{
+  "skins": {
+    "rotp_shadowworld:skinA": {
+      "stand_type": "rotp_shadowworld:shadow_world",
+      "color" : "0xF28AFF"
+    },
+    "rotp_shadowworld:skinB": {
+      "stand_type": "rotp_shadowworld:shadow_world",
+      "color" : "0xF28AFF"
+    },
+    "rotp_shadowworld:skinC": {
+      "stand_type": "rotp_shadowworld:shadow_world",
+      "color" : "0xF28AFF"
+    }
+  }
+}
