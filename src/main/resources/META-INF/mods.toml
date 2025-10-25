@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU GPL v3.0"
+
+[[mods]]
+modId="rotp_shadowworld"
+version="${file.jarVersion}"
+displayName="RotP 影世界 - Shadow The World"
+logoFile="icon.png"
+authors="LL,浪浪"
+description='''
+【模组简介】
+本模组还原《JOJO的奇妙冒险：未来遗产》中登场的替身「影世界（Shadow The World）」核心能力
+
+【版权说明】
+未公开的测试版禁止二次分发、商用或整合至服务器/整合包（测试版仅限个人体验）。
+
+【支持与赞助】
+若你喜欢本模组的创作，可通过爱发电支持开发者：https://afdian.com/a/pokelang 
+你的每一份支持，都会成为持续优化替身机制、新增玩法的动力，赞助可提前体验测试版与新版本内容！
+'''
+
+[[dependencies.rotp_shadowworld]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rotp_shadowworld]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rotp_shadowworld]]
+    modId="jojo"
+    mandatory=true
+    versionRange="[0.2.2,0.3)"
+    ordering="AFTER"
+    side="BOTH"
+    
